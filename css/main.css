@@ -1431,6 +1431,7 @@ textarea.custom-input {
 @media (min-height: 900px) {
   .navigation--column .navigation__item {
     margin-bottom: 22px;
+    text-align: center;
   }
 }
 
@@ -1439,10 +1440,14 @@ textarea.custom-input {
 }
 
 .navigation--column .navigation__link {
-  font-size: 18px;
+  font-size: 30px;
   line-height: 1.2;
-  color: #000000;
   text-transform: none;
+  font-weight: bold;
+  background-image: url(/img/wood.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .navigation--column .navigation__link:hover::after, .navigation--column .navigation__link:focus::after {
@@ -6386,7 +6391,9 @@ textarea.custom-input {
 
 .simplicity__heading {
   margin: 0 0 20px;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 28px;
+  margin-top: 10px
 }
 
 .simplicity__heading--upper {
@@ -6408,8 +6415,9 @@ textarea.custom-input {
 
 .simplicity__subheading {
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: -0.015em;
+  color: grey;
 }
 
 @media (min-width: 768px) {
@@ -6430,15 +6438,15 @@ textarea.custom-input {
 .simplicity__text {
   max-width: 390px;
   margin-bottom: 40px;
-  font-size: 16px;
-  line-height: 1.77;
-  color: #666666;
+  font-size: 15px;
+  letter-spacing: -0.015em;
+  color: grey;
 }
 
 @media (min-width: 1200px) {
   .simplicity__text {
     max-width: 435px;
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 
@@ -6593,7 +6601,8 @@ textarea.custom-input {
 }
 
 .approach__heading {
-  font-weight: 400;
+  font-weight: 300;
+  text-align: center;
 }
 
 .approach__heading + * {
@@ -10646,7 +10655,7 @@ textarea.custom-input {
 }
 
 .type-service--lite .type-service__item-heading {
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: -0.025em;
 }
 
@@ -12744,7 +12753,8 @@ textarea.custom-input {
 }
 
 .about__subheading {
-  font-weight: 400;
+  font-weight: 300;
+  margin-top: 30px;
 }
 
 .about__statistics {
@@ -12758,12 +12768,12 @@ textarea.custom-input {
 }
 
 .about__panorama {
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 1200px) {
   .about__panorama {
-    margin-bottom: 150px;
+    margin-bottom: 40px;
   }
 }
 
