@@ -1760,6 +1760,10 @@ textarea.custom-input {
 @media (min-width: 992px) {
   .navigation__link {
     font-size: 18px;
+    background-image: url(/img/wood.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
   }
 }
 
